@@ -1,0 +1,123 @@
+@font-face {
+    font-family: amerika;
+    /*src: url('AMERSN__.ttf');*/
+    /*  src: url('kalpurush.ttf');*/
+    src: url('SolaimanLipi.ttf');
+}
+
+body, p, h1, h2, h3, h4, h5, h6 {
+
+    font-family: amerika, serif !important;
+
+}
+
+.news-feed .post-wrapper .post-thumb .entry-thumb-4 {
+    height: 450px;
+}
+
+.entry-title {
+    font-weight: bold;
+    color: #191717;
+}
+
+.post.small-post .entry-title {
+    font-size: 16px;
+    line-height: 17px;
+    margin-top: 5px !important;
+}
+
+.health-section .small-post {
+    max-height: 115px;
+}
+
+.searchNlogin {
+    float: right;
+    position: relative;
+    margin-top: -60px;
+}
+
+.expanded .search-form {
+    margin-left: 54px;
+}
+
+
+#menubar {
+    background: #1F2024;
+}
+
+#navigation .language-dropdown.open > .dropdown-menu, #navigation .navbar-nav > li.dropdown:hover > .dropdown-menu {
+    background: #1F2024;
+}
+
+#mainmenu .dropdown-menu > li > a {
+    font-size: 14px;
+    color: #fff;
+}
+
+#navigation .language-dropdown.open > .dropdown-menu, #navigation .navbar-nav > li.dropdown:hover > .dropdown-menu {
+    border-radius: 0px;
+}
+
+#navigation .navbar-nav > li > a {
+    padding: 15px 8px;
+    color: #ffff;
+}
+
+.nav-font {
+    font-size: 12px;
+}
+
+/*Post CSS*/
+.medium-post {
+    height: 265px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.medium-post {
+    height: 300px;
+}
+
+.fixed-logo {
+    width: 150px;
+    height: auto;
+    background: #ffffff;
+}
+.fixed-logo2 {
+
+    height: auto;
+    background: #ffffff;
+    margin-top: -8px
+}
+
+@media (max-width: 475px) {
+
+    .homepage .searchNlogin {
+        right: 52px;
+        margin-top: 0px;
+    }
+
+    .nav-font {
+        display: none;
+    }
+
+    .fixed-logo2 {
+        width: 95px;
+        height: auto;
+        background: #ffffff;
+        margin-top: -8px
+    }
+}
+
+.fixed-logo2{
+    max-width: 100%;
+    height: 63px;
+    background: #fff;
+    margin-top: -9px;
+}
+
+b, strong {
+    font-weight: bold;
+}

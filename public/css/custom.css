@@ -1,0 +1,17 @@
+
+@font-face {
+    font-family: amerika;
+    /*src: url('AMERSN__.ttf');*/
+    /*  src: url('kalpurush.ttf');*/
+    src: url('SolaimanLipi.ttf');
+}
+
+body, p, h1, h2, h3, h4, h5, h6 {
+
+    font-family: amerika, serif !important;
+
+}
+.news-feed .post-wrapper .post-thumb .entry-thumb-4 {
+    height: 450px;
+}
+

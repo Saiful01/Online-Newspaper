@@ -1,0 +1,22 @@
+.dropdown-menu.show {
+    display: block;
+    border-radius: 2px;
+    /* border: 1px solid red; */
+    background: #fff;
+    margin-top: -2px;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 17px;
+}
+.details-news .entry-title {
+    font-size: 25px;
+}
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x- ng-cloak {
+    display: none !important;
+}
+
+.video-post-list .entry-thumbnail, .widget .post-list .entry-thumbnail {
+    height: 70px;
+}
